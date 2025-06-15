@@ -30,7 +30,7 @@ pip install -e .
 
 ## 模型训练
 主目录下pde_net开头的`.ipynb`文件均为核心训练文件，不同后缀代表不同模型参数，其中5和7代表卷积核kernel_size大小，是否有frozen后缀代表滤波器是否进行冻结。
-使用[kernel_size=5](pde_net_CN5.ipynb)在Jupyter Notebook逐行运行训练和验证代码，相关代码注释说明已记录在`.ipynb`文件内
+使用[kernel_size=5](pde_net_CN5.ipynb)在Jupyter Notebook逐行运行训练和验证代码，相关代码注释说明已记录在`.ipynb`文件内，其余网络结构设置训练代码放置在`other_setting_net`下
 
 ## 参数设置
 模型参数由`.yaml`文件控制，部分核心参数含义如下：
